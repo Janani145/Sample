@@ -45,18 +45,4 @@ while True:
         break
     else:
         print("Invalid input! Please enter a valid  choice.")
-  #FUNCTIONS TO PERFORM ARITHMETIC OPERATIONS
-def addition(x, y):
-    return x + y 
-
-def subtraction(x, y):
-    return x - y
-
-def multiplication(x, y):
-    return x * y
-
-def division(x, y):
-    if y == 0:
-        return "Error! Division by zero is not allowed."
-    else:
-        return x / y                
+ 
