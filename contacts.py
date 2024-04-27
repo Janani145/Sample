@@ -1,7 +1,7 @@
 contacts = []
 
 def add_contact():
-    name = input("Enter name: ")
+    name = input("Enter your name: ")
     phone = input("Enter phone number: ")
     email = input("Enter email: ")
     address = input("Enter address: ")
@@ -61,7 +61,7 @@ def delete_contact():
 
 def main():
     while True:
-        print("\nContact Book")
+        print("\n\t\tContact Book")
         print("1. Add Contact")
         print("2. View Contact List")
         print("3. Search Contact")
@@ -88,3 +88,123 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+
+#output
+'''
+                     Contact Book
+                     
+1. Add Contact
+2. View Contact List
+3. Search Contact
+4. Update Contact
+5. Delete Contact
+6. Exit
+Enter your choice: 1   #ADD A CONTACT
+Enter your name: abc
+Enter phone number: 0000000000
+Enter email: abc@gmail.com
+Enter address: Tamilnadu
+Contact added successfully!
+
+                     Contact Book   
+                
+1. Add Contact
+2. View Contact List
+3. Search Contact
+4. Update Contact
+5. Delete Contact
+6. Exit
+Enter your choice: 1    #ADD A CONTACT
+Enter your name: xyz
+Enter phone number: 9999999999
+Enter email: xyz@gmail.com
+Enter address: Kerala
+Contact added successfully!
+
+                     Contact Book
+1. Add Contact
+2. View Contact List
+3. Search Contact
+4. Update Contact
+5. Delete Contact
+6. Exit
+Enter your choice: 2    #VIEWING THE A CONTACT
+Contact List:
+1. Name: abc, Phone: 0000000000
+2. Name: xyz, Phone: 9999999999
+
+                    Contact Book
+1. Add Contact
+2. View Contact List
+3. Search Contact
+4. Update Contact
+5. Delete Contact
+6. Exit
+Enter your choice: 3    #SEARCHING THE CONTACT
+Enter name or phone number to search: xyz
+Contact found:
+Name: xyz, Phone: 9999999999, Email: xyz@gmail.com, Address: Kerala
+
+                   Contact Book
+1. Add Contact
+2. View Contact List
+3. Search Contact
+4. Update Contact
+5. Delete Contact
+6. Exit
+Enter your choice: 4   #UPDATING A CONTACT
+Enter name of the contact to update: abc
+Update Contact:
+1. Phone
+2. Email
+3. Address
+Enter option to update: 1
+Enter new phone number: 800000000
+Contact updated successfully!
+
+                   Contact Book
+1. Add Contact
+2. View Contact List
+3. Search Contact
+4. Update Contact
+5. Delete Contact
+6. Exit
+Enter your choice: 2      #VIEWING THE A CONTACT 
+Contact List:
+1. Name: abc, Phone: 800000000
+2. Name: xyz, Phone: 9999999999
+
+                   Contact Book
+1. Add Contact
+2. View Contact List
+3. Search Contact
+4. Update Contact
+5. Delete Contact
+6. Exit
+Enter your choice: 5         #DELETING THE A CONTACT
+Enter name of the contact to delete: xyz
+Contact deleted successfully!
+
+                    Contact Book
+1. Add Contact
+2. View Contact List
+3. Search Contact
+4. Update Contact
+5. Delete Contact
+6. Exit
+Enter your choice: 2    #VIEWING THE A CONTACT
+Contact List:
+1. Name: abc, Phone: 800000000
+
+                  Contact Book
+1. Add Contact
+2. View Contact List
+3. Search Contact
+4. Update Contact
+5. Delete Contact
+6. Exit
+Enter your choice: 6      #EXIT
+Thank you for using the Contact Book.
+'''
