@@ -45,4 +45,72 @@ while True:
         break
     else:
         print("Invalid input! Please enter a valid  choice.")
- 
+  
+                                 #OUTPUT
+
+'''                     WELCOME TO THE CALCULATOR !! 
+
+Select the operations:
+1. Addition 
+2. Subtraction 
+3. Multiplication 
+4. Division 
+5. Exit
+Enter operation choice (1/2/3/4/5): 1
+Enter first number: 23
+Enter second number: 44
+Result: 67.0
+
+        Select the operations:
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Exit
+Enter operation choice (1/2/3/4/5): 2
+Enter first number: 45
+Enter second number: 76
+Result: -31.0
+
+        Select the operations:
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Exit
+Enter operation choice (1/2/3/4/5): 3
+Enter first number: 22
+Enter second number: 5
+Result: 110.0
+
+        Select the operations:
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Exit
+Enter operation choice (1/2/3/4/5): 4
+Enter first number: 23
+Enter second number: 0
+Result: Error! Division by zero is not allowed.
+
+        Select the operations:
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Exit
+Enter operation choice (1/2/3/4/5): 4
+Enter first number: 40
+Enter second number: 8
+Result: 5.0
+
+        Select the operations:
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Exit
+Enter operation choice (1/2/3/4/5): 5
+Bye! 
+'''
