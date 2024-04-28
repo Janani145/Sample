@@ -27,3 +27,15 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+#OUTPUT
+
+'''
+Enter the desired length of the password: 5
+Enter the complexity level(1/2/3) of the password
+ 1.easy
+ 2.medium
+ 3.hard
+Select the option :1
+Generated Password: gb9en
+'''
