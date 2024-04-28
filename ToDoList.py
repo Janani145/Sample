@@ -64,3 +64,106 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+#OUTPUT
+'''
+WELCOME TO TO-DO LIST MAINTANANCE
+
+To-Do List Menu:
+1. Add Task
+2. View Tasks
+3. Update Task
+4. Delete Task
+5. Exit
+Enter your choice: 1
+Enter task: Publish a Book
+Task added successfully!
+
+WELCOME TO TO-DO LIST MAINTANANCE
+
+To-Do List Menu:
+1. Add Task
+2. View Tasks
+3. Update Task
+4. Delete Task
+5. Exit
+Enter your choice: 1
+Enter task: Deliver an item
+Task added successfully!
+
+WELCOME TO TO-DO LIST MAINTANANCE
+
+To-Do List Menu:
+1. Add Task
+2. View Tasks
+3. Update Task
+4. Delete Task
+5. Exit
+Enter your choice: 2
+To-Do List:
+1. Publish a Book
+2. Deliver an item
+
+WELCOME TO TO-DO LIST MAINTANANCE
+
+To-Do List Menu:
+1. Add Task
+2. View Tasks
+3. Update Task
+4. Delete Task
+5. Exit
+Enter your choice: 3
+Enter task number to update: 2
+Enter updated task: Off the stove
+Task updated successfully!
+
+WELCOME TO TO-DO LIST MAINTANANCE
+
+To-Do List Menu:
+1. Add Task
+2. View Tasks
+3. Update Task
+4. Delete Task
+5. Exit
+Enter your choice: 2
+To-Do List:
+1. Publish a Book
+2. Off the stove
+
+WELCOME TO TO-DO LIST MAINTANANCE
+
+To-Do List Menu:
+1. Add Task
+2. View Tasks
+3. Update Task
+4. Delete Task
+5. Exit
+Enter your choice: 4
+Enter task number to delete: 2
+Task deleted successfully!
+
+WELCOME TO TO-DO LIST MAINTANANCE
+
+To-Do List Menu:
+1. Add Task
+2. View Tasks
+3. Update Task
+4. Delete Task
+5. Exit
+Enter your choice: 2
+To-Do List:
+1. Publish a Book
+
+WELCOME TO TO-DO LIST MAINTANANCE
+
+To-Do List Menu:
+1. Add Task
+2. View Tasks
+3. Update Task
+4. Delete Task
+5. Exit
+Enter your choice: 5
+Thank you for using the To-Do List.
+
+'''
